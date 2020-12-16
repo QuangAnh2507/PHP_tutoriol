@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai tap 2</title>
+</head>
+<body>
+
+<h1 style="color:purple;">A Simple Form</h1>
+<h2 style="color:red;">Form fundamental</h2>
+
+</body>
+</html>
+<form id="orderForm">
+ 	<fieldset>
+  	<legend>Customer Infor</legend>
+
+  		<label for="fullname">Name:</label>
+  			<input type="text" id="fullname" name="Name" placeholder size = 50><br><br>
+
+  		<label for="tell">Telephone:</label>
+  			<input type="text" id="tell" name="Telephone" placeholder size = 50><br><br>
+
+  		<label for="gemail">E-mail address:</label>
+  			<input type="email" id="email" name="E-mail address" placeholder size=50 ><br><br>
+  	
+		<label for="gender">Gender:</label>	
+			<input type="radio" id="male" name="gender">
+  		<label for="male">Male</label>
+  			<input type="radio" id="female" name="gender">
+  		<label for="female">Female</label>
+  			<input type="radio" id="other" name="gender">
+  		<label for="other">Other</label><br><br>
+
+		<label for="hobbies">Hobbies:</label>
+			<input type="checkbox" id="hobbies1" name="Hobbies">
+  		<label for="Hobbies">Basketball</label>
+  			<input type="checkbox" id="hobbies2" name="Hobbies">
+  		<label for="Hobbies">Football</label>
+  			<input type="checkbox" id="hobbies3" name="Hobbies">
+  		<label for="Hobbies">Badminton</label>
+ 	</fieldset>
+</form>
+<form id="olderForm">
+	<fieldset>
+	<legend>Book</legend>
+		<label for="fullname">Name:</label>
+  			<input type="text" id="fullname" name="Name" placeholder size = 50>
+		<label for="quantity">Quantity (Maximum 5):</label>
+  			<input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+		
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+
+</form>
+</html>
