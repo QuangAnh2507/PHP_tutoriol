@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai tap 5</title>
+
+</head>
+<body>
+	<h2>Simple form with name and age</h2>
+<form id="orderForm">
+
+  		<label for="fullname">Name:</label>
+  			<input type="text" id="fullname" name="Name" value="Albert" placeholder size = 30><br><br>
+
+  		<label for="age">Age:</label>
+  			<input type="age" id="age" name="Age" value="39" placeholder size = 32>
+			<input type="submit" value="Add"><br><br><br>
+</form>
+
+<h2>Current data in the system></h2>
+<table>
+<style>
+table, tr, th	{
+  border: 1px solid black;
+  		}
+</style>
+	<tr>
+		<th></th>
+		<th>Name</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<th><button onclick="document.getElementById('line1').value = ''">Delete</button></th>
+		<th><input type="text" value="John" id="line1" size="5"></th>
+		<th><input type="text" value="23" id="line1" size="3"></th>
+	</tr>
+	<tr>
+		<th><button onclick="document.getElementById('line2').value = ''">Delete</button></th>
+		<th><input type="text" value="Mike" id="line2" size="5"></th>
+		<th><input type="text" value="55" id="line2" size="3"></th>
+	</tr>
+	<tr>
+		<th><button onclick="document.getElementById('line3').value = ''">Delete</button></th>
+		<th><input type="text" value="Albert" id="line3" size="5"></th>
+		<th><input type="text" value="39" id="line3" size="3"></th>
+	</tr>
+</table><br><br>
+
+	<input type="Submit" value="Click here"> to create a Table and some data using Javascript
+
+
+
+
+
+
+</body>
+</html>
